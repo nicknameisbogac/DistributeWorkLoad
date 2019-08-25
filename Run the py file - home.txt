@@ -1,0 +1,10 @@
+C:\
+Cd\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever
+"C:\Users\Aslan Yavrusu\Anaconda3\Python.exe" "C:\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever\IKFA_Final_Strike_Ever.py" Irtibat_Detay_Adres_Listesi.csv Personel.xlsx -g Gecmis.xlsx
+
+"C:\Users\Aslan Yavrusu\Anaconda3\Python.exe" "C:\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever\IKFA_Final_Strike_Ever.py" Girdi.xlsx Personel.xlsx -g Gecmis.xlsx
+
+
+
+
+

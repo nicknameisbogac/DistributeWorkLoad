@@ -1,0 +1,403 @@
+
+Text log dosya oluşturuldu...
+
+İşlem başladı... 
+
+
+Okunan Komut Satırı
+Girdi    : Irtibat_Detay_Adres_Listesi.csv
+Personel : Personel.xlsx
+Tarihsel : Gecmis.xlsx
+Klasör   : C:\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever
+
+C:\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever\Irtibat_Detay_Adres_Listesi.csv isimli dosya okundu...
+Girdi atama dosyası için Anahtar  Kolon    : MUHASEBECI_UNVAN
+
+C:\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever\Personel.xlsx isimli dosya okundu...
+Personel girdi dosyası için Personel Kolon : PERSONEL
+
+C:\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever\Gecmis.xlsx isimli dosya okundu...
+
+Atamalarda, geçmiş atamaları gösterir dosya da baz alınacaktır...
+Geçmiş atamalar dosyası için Anahtar  Kolon : CEVAPLAYAN
+Geçmiş atamalar dosyası için Personel Kolon : PERSONEL_I
+
+
+Adet  x Değer
+  1   x ADEM GEREKLİ
+  6   x ABDULĞANİ MEGEMİSOĞLU
+  4   x ABDULLAH ALIÇDALI
+ 10   x ABDULLAH DAĞ
+  8   x ABDULLAH YILDIRIM
+  7   x ABDURRAHİM ÇAKICIOĞLU
+  4   x ABDÜSSELAM EKMEKCİ
+ 10   x ABDULLA GÜL
+  1   x ABDURRAHMAN ÖZDEMİR
+  1   x ABDULKADİR ŞİMŞEK
+  5   x ABDÜLKADİR GÜZELDEMİRCİ
+  5   x ABDULHAMİT GÜNAY
+  2   x ABBAS SİLLE
+  1   x ABDURRAHMAN ÜZÜM
+  1   x ABDURRAHMAN YILMAZ
+  3   x A.KADİR GÜZELDEMİRCİ
+  4   x ABDULKADİR DEDEOĞLU
+  1   x ABDURRAZAK ABDURRAZZAKOĞLU
+  4   x ADEM ÇELİK
+  2   x ABDULLATİF BOZKURT
+  3   x ABDULLAH KALIN
+  5   x ABDULLAH KARAÖMER
+  5   x ABDULHAMİT KÜNEFECİ
+ 13   x ABDULLAH ZEKİ ALÇI
+  1   x ABDULVAHİT MÜJDAT KUSEYRİOĞLU
+  7   x ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ
+  9   x ABDULHAMİT REYHANİ
+  6   x ABDULLAH KORKMAZ
+
+Toplam 28 farklı değer ve 129 atama yapılacak...
+
+
+Geçmiş atamalar kullanılarak, her anahtar alan için, ideal personel önerilmiştir...
+İdeal personel geçmiş veriler incelenerek önerildi...
+Önerilen toplam 7 personel : ['FERHUNDE', 'HALO', 'HATİCE', 'NESLİHAN', 'NİMET', 'OĞUZ', 'SEDAT']
+
+icmalKume isimli dataframe oluşturuldu...
+Geçmiş veriden elde edilen personel : ['FERHUNDE', 'HALO', 'HATİCE', 'NESLİHAN', 'NİMET', 'OĞUZ', 'SEDAT']
+Personel dosyasında bildirilen personel : ['FERHUNDE', 'HAKAN', 'HALO', 'HATİCE', 'MURAT', 'NESLİHAN', 'NİMET', 'OĞUZ', 'SEDAT']
+Personel dosyasındakilerden farklı olanlar : ['HAKAN', 'MURAT']
+
+Atama yapılacak toplam kayıt : 129
+Görev verilecek toplam personel : 9
+Personel başına atama yapılacak ortalama kayıt : 15
+Atamada kullanılacak esneklik : 6
+icmalPersonel isimli dataframe oluşturuldu...
+Personel listesine eklenen personel : ['HAKAN', 'MURAT']
+
+Atamalar için iterasyon başladı...
+Iterasyon No : 0
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0     HAKAN       0         15    15
+1     MURAT       0         15    15
+2  NESLİHAN       4         15    11
+3    HATİCE       5         15    10
+4     NİMET       8         15     7
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0                         ABDULLAH ZEKİ ALÇI                   13       0    13
+1                         ABDULHAMİT REYHANİ                    9       0     9
+2                           ABDULHAMİT GÜNAY                    5       0     5
+3                 ABDURRAZAK ABDURRAZZAKOĞLU                    1       0     1
+4                           ABDURRAHMAN ÜZÜM                    1       0     1
+5                        ABDURRAHMAN ÖZDEMİR                    1       0     1
+6              ABDULVAHİT MÜJDAT KUSEYRİOĞLU                    1       0     1
+7                       A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+8                               ADEM GEREKLİ  NESLİHAN          1       1     0
+9                         ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+10                   ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+11                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+12                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+13                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+14                        ABDULLATİF BOZKURT     SEDAT          2       2     0
+15                         ABDULLAH YILDIRIM     NİMET          8       8     0
+16                               ABBAS SİLLE      HALO          2       2     0
+17  ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+18                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+19                         ABDULLAH KARAÖMER     SEDAT          5       5     0
+20                            ABDULLAH KALIN  NESLİHAN          3       3     0
+21                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+22                         ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+23                               ABDULLA GÜL      OĞUZ         10      10     0
+24                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+25                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+26                       ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+Iterasyon No : 1
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0     MURAT       0         15    15
+1  NESLİHAN       4         15    11
+2    HATİCE       5         15    10
+3     NİMET       8         15     7
+4     HAKAN      13         15     2
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0                         ABDULHAMİT REYHANİ                    9       0     9
+1                           ABDULHAMİT GÜNAY                    5       0     5
+2                 ABDURRAZAK ABDURRAZZAKOĞLU                    1       0     1
+3                           ABDURRAHMAN ÜZÜM                    1       0     1
+4                        ABDURRAHMAN ÖZDEMİR                    1       0     1
+5              ABDULVAHİT MÜJDAT KUSEYRİOĞLU                    1       0     1
+6                         ABDULLAH ZEKİ ALÇI     HAKAN         13      13     0
+7                          ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+8                          ABDULLAH KARAÖMER     SEDAT          5       5     0
+9                             ABDULLAH KALIN  NESLİHAN          3       3     0
+10                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+11                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+12                               ABDULLA GÜL      OĞUZ         10      10     0
+13                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+14  ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+15                       ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+16                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+17                        ABDULLATİF BOZKURT     SEDAT          2       2     0
+18                               ABBAS SİLLE      HALO          2       2     0
+19                         ABDULLAH YILDIRIM     NİMET          8       8     0
+20                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+21                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+22                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+23                   ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+24                        ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+25                              ADEM GEREKLİ  NESLİHAN          1       1     0
+26                      A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+Iterasyon No : 2
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0  NESLİHAN       4         15    11
+1    HATİCE       5         15    10
+2     NİMET       8         15     7
+3     MURAT       9         15     6
+4     HAKAN      13         15     2
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0                           ABDULHAMİT GÜNAY                    5       0     5
+1                 ABDURRAZAK ABDURRAZZAKOĞLU                    1       0     1
+2                           ABDURRAHMAN ÜZÜM                    1       0     1
+3                        ABDURRAHMAN ÖZDEMİR                    1       0     1
+4              ABDULVAHİT MÜJDAT KUSEYRİOĞLU                    1       0     1
+5                         ABDULHAMİT REYHANİ     MURAT          9       9     0
+6                         ABDULLATİF BOZKURT     SEDAT          2       2     0
+7                       A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+8                               ADEM GEREKLİ  NESLİHAN          1       1     0
+9                         ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+10                   ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+11                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+12                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+13                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+14                         ABDULLAH YILDIRIM     NİMET          8       8     0
+15                               ABBAS SİLLE      HALO          2       2     0
+16  ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+17                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+18                       ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+19                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+20                               ABDULLA GÜL      OĞUZ         10      10     0
+21                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+22                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+23                            ABDULLAH KALIN  NESLİHAN          3       3     0
+24                         ABDULLAH KARAÖMER     SEDAT          5       5     0
+25                         ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+26                        ABDULLAH ZEKİ ALÇI     HAKAN         13      13     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+Iterasyon No : 3
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0    HATİCE       5         15    10
+1     NİMET       8         15     7
+2  NESLİHAN       9         15     6
+3     MURAT       9         15     6
+4     HAKAN      13         15     2
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0                           ABDURRAHMAN ÜZÜM                    1       0     1
+1                        ABDURRAHMAN ÖZDEMİR                    1       0     1
+2              ABDULVAHİT MÜJDAT KUSEYRİOĞLU                    1       0     1
+3                 ABDURRAZAK ABDURRAZZAKOĞLU                    1       0     1
+4                           ABDULHAMİT GÜNAY  NESLİHAN          5       5     0
+5   ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+6                         ABDULLAH ZEKİ ALÇI     HAKAN         13      13     0
+7                          ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+8                          ABDULLAH KARAÖMER     SEDAT          5       5     0
+9                             ABDULLAH KALIN  NESLİHAN          3       3     0
+10                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+11                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+12                               ABDULLA GÜL      OĞUZ         10      10     0
+13                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+14                       ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+15                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+16                         ABDULLAH YILDIRIM     NİMET          8       8     0
+17                               ABBAS SİLLE      HALO          2       2     0
+18                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+19                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+20                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+21                   ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+22                        ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+23                              ADEM GEREKLİ  NESLİHAN          1       1     0
+24                      A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+25                        ABDULLATİF BOZKURT     SEDAT          2       2     0
+26                        ABDULHAMİT REYHANİ     MURAT          9       9     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+Iterasyon No : 4
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0    HATİCE       6         15     9
+1     NİMET       8         15     7
+2  NESLİHAN       9         15     6
+3     MURAT       9         15     6
+4     HAKAN      13         15     2
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0              ABDULVAHİT MÜJDAT KUSEYRİOĞLU                    1       0     1
+1                 ABDURRAZAK ABDURRAZZAKOĞLU                    1       0     1
+2                        ABDURRAHMAN ÖZDEMİR                    1       0     1
+3                           ABDURRAHMAN ÜZÜM    HATİCE          1       1     0
+4                          ABDULLAH YILDIRIM     NİMET          8       8     0
+5                         ABDULHAMİT REYHANİ     MURAT          9       9     0
+6                         ABDULLATİF BOZKURT     SEDAT          2       2     0
+7                       A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+8                               ADEM GEREKLİ  NESLİHAN          1       1     0
+9                         ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+10                   ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+11                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+12                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+13                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+14                               ABBAS SİLLE      HALO          2       2     0
+15                       ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+16                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+17                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+18                               ABDULLA GÜL      OĞUZ         10      10     0
+19                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+20                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+21                            ABDULLAH KALIN  NESLİHAN          3       3     0
+22                         ABDULLAH KARAÖMER     SEDAT          5       5     0
+23                         ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+24                        ABDULLAH ZEKİ ALÇI     HAKAN         13      13     0
+25  ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+26                          ABDULHAMİT GÜNAY  NESLİHAN          5       5     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+Iterasyon No : 5
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0    HATİCE       7         15     8
+1     NİMET       8         15     7
+2  NESLİHAN       9         15     6
+3     MURAT       9         15     6
+4     HAKAN      13         15     2
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0                        ABDURRAHMAN ÖZDEMİR                    1       0     1
+1                 ABDURRAZAK ABDURRAZZAKOĞLU                    1       0     1
+2              ABDULVAHİT MÜJDAT KUSEYRİOĞLU    HATİCE          1       1     0
+3                        ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+4                           ABDULHAMİT GÜNAY  NESLİHAN          5       5     0
+5   ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+6                         ABDULLAH ZEKİ ALÇI     HAKAN         13      13     0
+7                          ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+8                          ABDULLAH KARAÖMER     SEDAT          5       5     0
+9                             ABDULLAH KALIN  NESLİHAN          3       3     0
+10                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+11                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+12                               ABDULLA GÜL      OĞUZ         10      10     0
+13                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+14                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+15                               ABBAS SİLLE      HALO          2       2     0
+16                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+17                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+18                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+19                   ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+20                        ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+21                              ADEM GEREKLİ  NESLİHAN          1       1     0
+22                      A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+23                        ABDULLATİF BOZKURT     SEDAT          2       2     0
+24                        ABDULHAMİT REYHANİ     MURAT          9       9     0
+25                         ABDULLAH YILDIRIM     NİMET          8       8     0
+26                          ABDURRAHMAN ÜZÜM    HATİCE          1       1     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+Iterasyon No : 6
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0    HATİCE       8         15     7
+1     NİMET       8         15     7
+2  NESLİHAN       9         15     6
+3     MURAT       9         15     6
+4     HAKAN      13         15     2
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0                 ABDURRAZAK ABDURRAZZAKOĞLU                    1       0     1
+1                        ABDURRAHMAN ÖZDEMİR    HATİCE          1       1     0
+2                           ABDURRAHMAN ÜZÜM    HATİCE          1       1     0
+3                          ABDULLAH YILDIRIM     NİMET          8       8     0
+4                         ABDULHAMİT REYHANİ     MURAT          9       9     0
+5                         ABDULLATİF BOZKURT     SEDAT          2       2     0
+6                       A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+7                               ADEM GEREKLİ  NESLİHAN          1       1     0
+8                         ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+9                    ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+10                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+11                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+12                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+13                               ABBAS SİLLE      HALO          2       2     0
+14                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+15                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+16                               ABDULLA GÜL      OĞUZ         10      10     0
+17                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+18                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+19                            ABDULLAH KALIN  NESLİHAN          3       3     0
+20                         ABDULLAH KARAÖMER     SEDAT          5       5     0
+21                         ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+22                        ABDULLAH ZEKİ ALÇI     HAKAN         13      13     0
+23  ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+24                          ABDULHAMİT GÜNAY  NESLİHAN          5       5     0
+25                       ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+26             ABDULVAHİT MÜJDAT KUSEYRİOĞLU    HATİCE          1       1     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+Iterasyon No : 7
+   PERSONEL  ATANAN  PLANLANAN  FARK
+0     NİMET       8         15     7
+1    HATİCE       9         15     6
+2  NESLİHAN       9         15     6
+3     MURAT       9         15     6
+4     HAKAN      13         15     2
+5      HALO      18         15    -3
+6      OĞUZ      19         15    -4
+7     SEDAT      20         15    -5
+8  FERHUNDE      24         15    -9
+                            MUHASEBECI_UNVAN  PERSONEL  PLANLANAN  ATANAN  FARK
+0                 ABDURRAZAK ABDURRAZZAKOĞLU    HATİCE          1       1     0
+1                        ABDURRAHMAN ÖZDEMİR    HATİCE          1       1     0
+2              ABDULVAHİT MÜJDAT KUSEYRİOĞLU    HATİCE          1       1     0
+3                        ABDULHAMİT KÜNEFECİ      OĞUZ          5       5     0
+4                           ABDULHAMİT GÜNAY  NESLİHAN          5       5     0
+5   ABDULLAH VE İBRAHİM BAYRAKTAR-KAYNAR ADİ     SEDAT          7       7     0
+6                         ABDULLAH ZEKİ ALÇI     HAKAN         13      13     0
+7                          ABDULLAH ALIÇDALI  FERHUNDE          4       4     0
+8                          ABDULLAH KARAÖMER     SEDAT          5       5     0
+9                             ABDULLAH KALIN  NESLİHAN          3       3     0
+10                              ABDULLAH DAĞ  FERHUNDE         10      10     0
+11                       ABDULKADİR DEDEOĞLU  FERHUNDE          4       4     0
+12                               ABDULLA GÜL      OĞUZ         10      10     0
+13                         ABDULKADİR ŞİMŞEK      OĞUZ          1       1     0
+14                          ABDULLAH KORKMAZ     SEDAT          6       6     0
+15                               ABBAS SİLLE      HALO          2       2     0
+16                     ABDULĞANİ MEGEMİSOĞLU  FERHUNDE          6       6     0
+17                        ABDURRAHMAN YILMAZ    HATİCE          1       1     0
+18                     ABDURRAHİM ÇAKICIOĞLU      HALO          7       7     0
+19                   ABDÜLKADİR GÜZELDEMİRCİ      HALO          5       5     0
+20                        ABDÜSSELAM EKMEKCİ      HALO          4       4     0
+21                              ADEM GEREKLİ  NESLİHAN          1       1     0
+22                      A.KADİR GÜZELDEMİRCİ      OĞUZ          3       3     0
+23                        ABDULLATİF BOZKURT     SEDAT          2       2     0
+24                        ABDULHAMİT REYHANİ     MURAT          9       9     0
+25                         ABDULLAH YILDIRIM     NİMET          8       8     0
+26                          ABDURRAHMAN ÜZÜM    HATİCE          1       1     0
+27                                ADEM ÇELİK    HATİCE          4       4     0
+
+İterasyon tamamlandı...
+
+Toplam 7 iterasyon sonra sonuca ulaşıldı...
+
+İşlemler tamamlandı... 
+
+Dosya kapatıldı...

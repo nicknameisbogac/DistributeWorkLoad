@@ -1,0 +1,40 @@
+ever user seçenegi için ise söyledir:
+***************************************
+D:
+cD\My_Way\Programming_All\Pandas_All\Pandas_Trainings\Assign_Pers\Never_Ever
+"C:\Program Files\Anaconda3\Python.exe" IKFA_Final_Strike_Ever.py Girdi.xlsx Personel.xlsx -g Gecmis.xlsx
+
+"C:\Program Files\Anaconda3\Python.exe" IKFA_Final_Strike_Ever.py Irtibat_Detay_Adres_Listesi.csv Personel.xlsx -g Gecmis.xlsx
+
+
+
+********************************
+for home...
+c:
+cd\
+CD\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas_Trainings\Assign_Pers\Never_Ever
+"C:\Users\Aslan Yavrusu\Anaconda3\Python.exe" IKFA_Final_Strike_Ever.py Irtibat_Detay_Adres_Listesi.csv Personel.xlsx -g Gecmis.xlsx
+---------------------------------------
+
+ever user seçenegi için ise söyledir:
+***************************************
+D:
+cD\My_Way\Programming_All\Pandas_All\Pandas_Trainings\Assign_Pers\Never_Ever
+"C:\Program Files\Anaconda3\Python.exe" IKFA_Final_Strike_Ever.py Murat.xlsx Bayrav.xlsx -g Kuna.xlsx
+
+just me seçenegi olursa asagida gibidir :
+*******************************************
+
+D:\My_Way\Programming_All\Pandas_All\Pandas_Trainings\Assign_Pers\Python_Training_Shell.py Murat.xlsx Bayrav.xlsx -g Kuna.xlsx
+D:\My_Way\Programming_All\Pandas_All\Pandas_Trainings\Assign_Pers\Tahsis_Prog_Header.py Murat.xlsx Bayrav.xlsx -g Kuna.xlsx
+
+
+C:\Users\11501803830\AppData\Local\Continuum\anaconda3\Python.exe "D:\My Way\Programming - All\Pandas - All\Pandas Trainings\Assign Pers\Tahsis_Prog_Header.py" Murat.xlsx Bayrav.xlsx -g Kuna.xlsx
+Note:
+conda directory is
+C:\Users\11501803830\AppData\Local\Continuum\anaconda3\scripts
+install glob2 by using
+conda install -c anaconda glob2 
+
+
+"C:\Users\Aslan Yavrusu\Anaconda3\Python.exe" "C:\Users\Aslan Yavrusu\OneDrive\Desktop\My Way\Programming - All\Pandas - All\Pandas Trainings\Assign Pers\Tahsis_Prog_Header.py" Murat.xlsx Bayrav.xlsx -g Kuna.xlsx
